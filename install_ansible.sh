@@ -21,7 +21,7 @@ python3.8 -m pip install boto3 botocore awscli
 ansible-galaxy collection install amazon.aws
 
 # Initialize a default Ansible configuration file
-ansible-config init --disabled > /etc/ansible/ansible.cfg
+ansible-config init --disabled > ansible.cfg
 
 # Add a success message to the log
 echo "Installation and configuration completed successfully!" >> /var/log/user_data.log 2>&1
