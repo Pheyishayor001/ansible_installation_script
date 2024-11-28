@@ -18,7 +18,7 @@ python3.8 -m pip install ansible
 python3.8 -m pip install boto3 botocore awscli
 
 # Install the Amazon Ansible EC2 plugin
-ansible-galaxy collection install amazon.aws
+#ansible-galaxy collection install amazon.aws
 
 # Initialize a default Ansible configuration file
 ansible-config init --disabled > ansible.cfg
