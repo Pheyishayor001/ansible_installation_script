@@ -13,5 +13,7 @@ pip install --upgrade pip
 
 #install ansible
 pip install ansible
+
+sudo apt install sshpass
 # Initialize default Ansible config
 ansible-config init --disabled > ansible.cfg
